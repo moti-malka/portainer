@@ -4,16 +4,18 @@ go 1.16
 
 require (
 	github.com/Microsoft/go-winio v0.4.17
+	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
 	github.com/boltdb/bolt v1.3.1
-	github.com/containerd/containerd v1.5.7 // indirect
 	github.com/coreos/go-semver v0.3.0
 	github.com/dchest/uniuri v0.0.0-20160212164326-8902c56451e9
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/docker/cli v20.10.9+incompatible
-	github.com/docker/docker v20.10.9+incompatible
+	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
+	github.com/docker/go-units v0.4.0 // indirect
 	github.com/g07cha/defender v0.0.0-20180505193036-5665c627c814
 	github.com/go-git/go-git/v5 v5.3.0
 	github.com/go-ldap/ldap/v3 v3.1.8
@@ -28,6 +30,9 @@ require (
 	github.com/koding/websocketproxy v0.0.0-20181220232114-7ed82d81a28c
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
+	github.com/onsi/gomega v1.10.3 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/orcaman/concurrent-map v0.0.0-20190826125027-8c72a8bb44f6
 	github.com/pkg/errors v0.9.1
 	github.com/portainer/docker-compose-wrapper v0.0.0-20211018221743-10a04c9d4f19
@@ -43,6 +48,7 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gotest.tools/v3 v3.0.3 // indirect
 	k8s.io/api v0.22.2
 	k8s.io/apimachinery v0.22.2
 	k8s.io/client-go v0.22.2
